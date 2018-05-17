@@ -11,7 +11,6 @@ If you need a gem to integration with OData Version 3, you can use James Thompso
 [![Build Status](https://app.codeship.com/projects/da1eb540-ce3f-0135-2ddc-161d5c3cc5fd/status?branch=master)](https://app.codeship.com/projects/262148)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f151944dc05b2c7268e5/maintainability)](https://codeclimate.com/github/wrstudios/odata4/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f151944dc05b2c7268e5/test_coverage)](https://codeclimate.com/github/wrstudios/odata4/test_coverage)
-[![Dependency Status](https://gemnasium.com/badges/github.com/wrstudios/odata4.svg)](https://gemnasium.com/github.com/wrstudios/odata4)
 [![Documentation](http://inch-ci.org/github/wrstudios/odata4.png?branch=master)](http://www.rubydoc.info/github/wrstudios/odata4/master)
 [![Gem Version](https://badge.fury.io/rb/odata4.svg)](https://badge.fury.io/rb/odata4)
 
@@ -144,7 +143,7 @@ In this case, you'll be setting the service URL on the connection object, as sho
   service = OData4::Service.new(conn, name: 'ODataDemo')
 ```
 
-**NOTE**: if you use this method, any options set via the `:connection` options key will be ignored. 
+**NOTE**: if you use this method, any options set via the `:connection` options key will be ignored.
 
 ##### Passing a block to the constructor
 
