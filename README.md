@@ -144,6 +144,8 @@ In this case, you'll be setting the service URL on the connection object, as sho
   service = OData4::Service.new(conn, name: 'ODataDemo')
 ```
 
+**NOTE**: if you use this method, any options set via the `:connection` options key will be ignored. 
+
 ##### Passing a block to the constructor
 
 Alternatively, the connection object is also `yield`ed by the constructor, so you may customize it by passing a block argument.

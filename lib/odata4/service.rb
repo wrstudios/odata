@@ -212,7 +212,7 @@ module OData4
 
     def default_options
       {
-        request: {
+        connection: {
           timeout: DEFAULT_TIMEOUT
         },
         strict: true # strict property validation
