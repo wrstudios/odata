@@ -1,5 +1,11 @@
 # OData4
 
+> **NOTE**: starting with version 0.9.1, this gem has been renamed to `frodata`.
+All further development will continue in the [new repository][frodata].
+This repository will stay up for historical reasons, but now new features will be added to it.
+
+[frodata]: https://github.com/wrstudios/frodata
+
 The OData4 gem provides a simple wrapper around the OData Version 4.0 API protocol.
 It has the ability to automatically inspect compliant APIs and expose the relevant Ruby objects dynamically.
 It also provides a set of code generation tools for quickly bootstrapping more custom service libraries.
